@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Processed Image</title>
+  </head>
+  <body>
+    <h1>Results</h1>
+    <h2>Original Image</h2>
+    <img src="{{ url_for('upload_file', filename=original_image) }}" alt="Original Image">
+    <h2>Processed Image</h2>
+    <img src="{{ url_for('processed_file', filename=processed_image) }}" alt="Processed Image">
+    <h2>Tree Detection Percentage</h2>
+    <p>{{ tree_percentage }}%</p>
+  </body>
+</html>
