@@ -6,3 +6,4 @@ numpy
 rasterio
 dask
 detectree
+gunicorn
