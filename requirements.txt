@@ -1,9 +1,6 @@
-# Specify a compatible version of numpy
+# Specify compatible numpy version
 numpy==1.24.3
 
-# Specify the maxflow library
-maxflow==1.4
-
-# Add other dependencies here
-gunicorn==20.1.0
-flask==2.3.3
+# Use maxflow that works with current Python version
+PyMaxflow==1.2.13  # Alternative package for maxflow
+gunicorn
