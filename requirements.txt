@@ -1,7 +1,4 @@
-# Specify compatible numpy version
-numpy==1.24.3
-
-# Use maxflow that works with current Python version
-PyMaxflow==1.2.13  # Alternative package for maxflow
+PyMaxflow
 gunicorn
 detectree
+
