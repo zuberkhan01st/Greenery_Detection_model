@@ -31,15 +31,15 @@ This project is ideal for:
 ## Repository Structure
 Greenery_Detection_model/
 │
-├── processed/                  # Folder containing processed image files
-├── templates/                  # HTML templates for the web application
-│   ├── index.html              # Main page for uploading images
-│   ├── results.html            # Results page displaying detected greenery
+├── processed/               
+├── templates/             
+│   ├── index.html              
+│   ├── results.html           
 │
-├── uploads/                    # Directory for storing uploaded images
+├── uploads/                  
 │
-├── .gitignore                  # Specifies files to ignore in the repository
-├── Procfile                    # Configuration file for deployment
-├── requirements.txt            # List of Python dependencies
-├── tree_pip.py                 # Main Python script for running the application
-└── README.md                   # Documentation for the project
+├── .gitignore                  
+├── Procfile                    
+├── requirements.txt            
+├── tree_pip.py                 
+└── README.md                   
